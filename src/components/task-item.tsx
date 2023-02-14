@@ -92,12 +92,12 @@ const TaskItem = (props: Props) => {
       >
         <Box width={30} height={30} mr={2}>
           <Pressable onPress={onToggleCheckbox}>
-            <AnimatedCheckbox
+            {/* <AnimatedCheckbox
               highlightColor={highlightColor}
               checkmarkColor={checkmarkColor}
               boxOutlineColor={boxStroke}
               checked={isDone}
-            />
+            /> */}
           </Pressable>
         </Box>
         {isEditing ? (
